@@ -1,0 +1,126 @@
+## ComfyUI-Manager: installing dependencies done.
+[2025-02-17 03:03:20.434] ** ComfyUI startup time: 2025-02-17 03:03:20.434
+[2025-02-17 03:03:20.434] ** Platform: Linux
+[2025-02-17 03:03:20.434] ** Python version: 3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]
+[2025-02-17 03:03:20.434] ** Python executable: /home/tuyijing/anaconda3/envs/comfyui/bin/python
+[2025-02-17 03:03:20.434] ** ComfyUI Path: /home/tuyijing/ComfyUI
+[2025-02-17 03:03:20.434] ** ComfyUI Base Folder Path: /home/tuyijing/ComfyUI
+[2025-02-17 03:03:20.434] ** User directory: /home/tuyijing/ComfyUI/user
+[2025-02-17 03:03:20.434] ** ComfyUI-Manager config path: /home/tuyijing/ComfyUI/user/default/ComfyUI-Manager/config.ini
+[2025-02-17 03:03:20.434] ** Log path: /home/tuyijing/ComfyUI/user/comfyui.log
+
+Prestartup times for custom nodes:
+[2025-02-17 03:03:21.157]    2.7 seconds: /home/tuyijing/ComfyUI/custom_nodes/ComfyUI-Manager-main
+[2025-02-17 03:03:21.157] 
+[2025-02-17 03:03:24.672] Checkpoint files will always be loaded safely.
+[2025-02-17 03:03:25.040] Total VRAM 81229 MB, total RAM 515615 MB
+[2025-02-17 03:03:25.040] pytorch version: 2.6.0+cu124
+[2025-02-17 03:03:25.040] Set vram state to: NORMAL_VRAM
+[2025-02-17 03:03:25.043] Device: cuda:0 NVIDIA A800-SXM4-80GB : cudaMallocAsync
+[2025-02-17 03:03:26.907] Using pytorch attention
+[2025-02-17 03:03:28.740] ComfyUI version: 0.3.14
+[2025-02-17 03:03:28.745] [Prompt Server] web root: /home/tuyijing/ComfyUI/web
+[2025-02-17 03:03:29.612] ### Loading: ComfyUI-Manager (V3.21)
+[2025-02-17 03:03:29.612] [ComfyUI-Manager] network_mode: public
+[2025-02-17 03:03:29.661] ### ComfyUI Version: v0.3.14-22-g042a905c | Released on '2025-02-13'
+[2025-02-17 03:03:29.791] 
+Import times for custom nodes:
+[2025-02-17 03:03:29.791]    0.0 seconds: /home/tuyijing/ComfyUI/custom_nodes/websocket_image_save.py
+[2025-02-17 03:03:29.791]    0.0 seconds: /home/tuyijing/ComfyUI/custom_nodes/aigodlike-comfyui-translation
+[2025-02-17 03:03:29.791]    0.1 seconds: /home/tuyijing/ComfyUI/custom_nodes/ComfyUI-Manager-main
+[2025-02-17 03:03:29.791]    0.1 seconds: /home/tuyijing/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite-main
+[2025-02-17 03:03:29.791]    0.4 seconds: /home/tuyijing/ComfyUI/custom_nodes/ComfyUI-HunyuanVideoWrapper
+[2025-02-17 03:03:29.791] 
+[2025-02-17 03:03:29.801] Starting server
+
+[2025-02-17 03:03:29.801] To see the GUI go to: http://127.0.0.1:8188
+[2025-02-17 03:03:29.987] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2025-02-17 03:03:30.019] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2025-02-17 03:03:30.102] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2025-02-17 03:03:30.122] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2025-02-17 03:03:30.167] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2025-02-17 03:03:36.865] FETCH ComfyRegistry Data: 5/33
+[2025-02-17 03:03:43.299] FETCH ComfyRegistry Data: 10/33
+[2025-02-17 03:03:50.317] FETCH ComfyRegistry Data: 15/33
+[2025-02-17 03:03:57.476] FETCH ComfyRegistry Data: 20/33
+[2025-02-17 03:04:04.097] FETCH ComfyRegistry Data: 25/33
+[2025-02-17 03:04:09.792] FETCH ComfyRegistry Data: 30/33
+[2025-02-17 03:04:13.595] FETCH ComfyRegistry Data [DONE]
+[2025-02-17 03:04:13.673] [ComfyUI-Manager] default cache updated: https://api.comfy.org/nodes
+[2025-02-17 03:04:13.768] nightly_channel: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/remote
+[2025-02-17 03:04:13.768] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json [DONE]
+[2025-02-17 03:04:14.376] [ComfyUI-Manager] All startup tasks have been completed.
+[2025-02-17 03:05:09.967] got prompt
+[2025-02-17 03:05:19.344] Loading text encoder model (clipL) from: /home/tuyijing/ComfyUI/models/clip/clip-vit-large-patch14
+[2025-02-17 03:05:20.600] Text encoder to dtype: torch.float16
+[2025-02-17 03:05:20.602] Loading tokenizer (clipL) from: /home/tuyijing/ComfyUI/models/clip/clip-vit-large-patch14
+[2025-02-17 03:05:20.715] You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama_fast.LlamaTokenizerFast'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message.
+[2025-02-17 03:05:22.009] Loading text encoder model (vlm) from: /home/tuyijing/ComfyUI/models/LLM/llava-llama-3-8b-v1_1-transformers
+[2025-02-17 03:05:50.479] Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:27<00:00,  6.64s/it]Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:27<00:00,  6.85s/it]
+[2025-02-17 03:06:00.137] Text encoder to dtype: torch.bfloat16
+[2025-02-17 03:06:00.145] Loading tokenizer (vlm) from: /home/tuyijing/ComfyUI/models/LLM/llava-llama-3-8b-v1_1-transformers
+[2025-02-17 03:06:20.953] Expanding inputs for image tokens in LLaVa should be done in processing. Please add `patch_size` and `vision_feature_select_strategy` to the model's processing config or set directly with `processor.patch_size = {{patch_size}}` and processor.vision_feature_select_strategy = {{vision_feature_select_strategy}}`. Using processors without these attributes in the config is deprecated and will throw an error in v4.50.
+[2025-02-17 03:06:22.036] Expanding inputs for image tokens in LLaVa should be done in processing. Please add `patch_size` and `vision_feature_select_strategy` to the model's processing config or set directly with `processor.patch_size = {{patch_size}}` and processor.vision_feature_select_strategy = {{vision_feature_select_strategy}}`. Using processors without these attributes in the config is deprecated and will throw an error in v4.50.
+[2025-02-17 03:06:22.396] vlm prompt attention_mask shape: torch.Size([1, 171]), masked tokens: 171
+[2025-02-17 03:06:33.842] clipL prompt attention_mask shape: torch.Size([1, 77]), masked tokens: 57
+[2025-02-17 03:06:34.189] model_type FLOW
+[2025-02-17 03:06:34.190] The config attributes {'use_flow_sigmas': True, 'prediction_type': 'flow_prediction'} were passed to FlowMatchDiscreteScheduler, but are not expected and will be ignored. Please verify your scheduler_config.json configuration file.
+[2025-02-17 03:06:34.190] Scheduler config: FrozenDict([('num_train_timesteps', 1000), ('flow_shift', 9.0), ('reverse', True), ('solver', 'euler'), ('n_tokens', None), ('_use_default_values', ['n_tokens', 'num_train_timesteps'])])
+[2025-02-17 03:06:34.191] Using accelerate to load and assign model weights to device...
+[2025-02-17 03:06:34.720] Requested to load HyVideoModel
+[2025-02-17 03:06:38.890] loaded completely 78984.7771976471 12555.953247070312 True
+[2025-02-17 03:06:48.825] Input (height, width, video_length) = (480, 720, 61)
+[2025-02-17 03:06:48.826] The config attributes {'use_flow_sigmas': True, 'prediction_type': 'flow_prediction'} were passed to FlowMatchDiscreteScheduler, but are not expected and will be ignored. Please verify your scheduler_config.json configuration file.
+[2025-02-17 03:06:48.826] Scheduler config: FrozenDict([('num_train_timesteps', 1000), ('flow_shift', 7.5), ('reverse', True), ('solver', 'euler'), ('n_tokens', None), ('_use_default_values', ['n_tokens', 'num_train_timesteps'])])
+[2025-02-17 03:06:53.058] Sampling 61 frames in 16 latents at 720x480 with 30 inference steps
+[2025-02-17 03:10:14.232] 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [03:21<00:00,  6.77s/it]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [03:21<00:00,  6.71s/it]
+[2025-02-17 03:10:14.236] Allocated memory: memory=12.735 GB
+[2025-02-17 03:10:14.236] Max allocated memory: max_memory=17.211 GB
+[2025-02-17 03:10:14.236] Max reserved memory: max_reserved=19.500 GB
+[2025-02-17 03:10:31.376] Decoding rows: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5/5 [00:06<00:00,  1.21s/it]Decoding rows: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5/5 [00:06<00:00,  1.22s/it]
+[2025-02-17 03:10:31.851] Blending tiles: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5/5 [00:00<00:00, 10.56it/s]
+[2025-02-17 03:10:37.015] Prompt executed in 327.04 seconds
+[2025-02-17 03:10:58.829] got prompt
+[2025-02-17 03:11:20.390] vlm prompt attention_mask shape: torch.Size([1, 151]), masked tokens: 151
+[2025-02-17 03:11:32.238] clipL prompt attention_mask shape: torch.Size([1, 77]), masked tokens: 57
+[2025-02-17 03:11:32.407] Input (height, width, video_length) = (480, 720, 61)
+[2025-02-17 03:11:32.408] The config attributes {'use_flow_sigmas': True, 'prediction_type': 'flow_prediction'} were passed to FlowMatchDiscreteScheduler, but are not expected and will be ignored. Please verify your scheduler_config.json configuration file.
+[2025-02-17 03:11:32.409] Scheduler config: FrozenDict([('num_train_timesteps', 1000), ('flow_shift', 7.5), ('reverse', True), ('solver', 'euler'), ('n_tokens', None), ('_use_default_values', ['n_tokens', 'num_train_timesteps'])])
+[2025-02-17 03:11:41.746] Sampling 61 frames in 16 latents at 720x480 with 30 inference steps
+[2025-02-17 03:15:02.088] 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [03:20<00:00,  6.74s/it]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [03:20<00:00,  6.68s/it]
+[2025-02-17 03:15:02.091] Allocated memory: memory=12.276 GB
+[2025-02-17 03:15:02.092] Max allocated memory: max_memory=16.746 GB
+[2025-02-17 03:15:02.092] Max reserved memory: max_reserved=18.125 GB
+[2025-02-17 03:15:19.490] Decoding rows: 100%|███████████████████████████████████████████████████████████████████████████████████████| 5/5 [00:05<00:00,  1.19s/it]Decoding rows: 100%|███████████████████████████████████████████████████████████████████████████████████████| 5/5 [00:05<00:00,  1.18s/it]
+[2025-02-17 03:15:19.963] Blending tiles: 100%|██████████████████████████████████████████████████████████████████████████████████████| 5/5 [00:00<00:00, 10.58it/s]
+[2025-02-17 03:15:21.678] Prompt executed in 262.85 seconds
+[2025-02-17 03:19:14.219] got prompt
+[2025-02-17 03:19:24.384] vlm prompt attention_mask shape: torch.Size([1, 113]), masked tokens: 113
+[2025-02-17 03:19:35.893] clipL prompt attention_mask shape: torch.Size([1, 77]), masked tokens: 57
+[2025-02-17 03:19:35.990] Input (height, width, video_length) = (480, 720, 61)
+[2025-02-17 03:19:35.991] The config attributes {'use_flow_sigmas': True, 'prediction_type': 'flow_prediction'} were passed to FlowMatchDiscreteScheduler, but are not expected and will be ignored. Please verify your scheduler_config.json configuration file.
+[2025-02-17 03:19:35.992] Scheduler config: FrozenDict([('num_train_timesteps', 1000), ('flow_shift', 7.5), ('reverse', True), ('solver', 'euler'), ('n_tokens', None), ('_use_default_values', ['n_tokens', 'num_train_timesteps'])])
+[2025-02-17 03:19:43.268] Sampling 61 frames in 16 latents at 720x480 with 30 inference steps
+[2025-02-17 03:23:03.536] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [03:20<00:00,  6.74s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [03:20<00:00,  6.68s/it]
+[2025-02-17 03:23:03.539] Allocated memory: memory=12.276 GB
+[2025-02-17 03:23:03.539] Max allocated memory: max_memory=16.735 GB
+[2025-02-17 03:23:03.539] Max reserved memory: max_reserved=18.281 GB
+[2025-02-17 03:23:21.538] Decoding rows: 100%|███████████████████████████████████████████████████████████████████████████████████████| 5/5 [00:05<00:00,  1.19s/it]Decoding rows: 100%|███████████████████████████████████████████████████████████████████████████████████████| 5/5 [00:05<00:00,  1.18s/it]
+[2025-02-17 03:23:22.043] Blending tiles: 100%|██████████████████████████████████████████████████████████████████████████████████████| 5/5 [00:00<00:00,  9.93it/s]
+[2025-02-17 03:23:23.905] Prompt executed in 249.68 seconds
+[2025-02-17 03:23:57.260] got prompt
+[2025-02-17 03:24:08.618] vlm prompt attention_mask shape: torch.Size([1, 94]), masked tokens: 94
+[2025-02-17 03:24:20.487] clipL prompt attention_mask shape: torch.Size([1, 77]), masked tokens: 57
+[2025-02-17 03:24:20.612] Input (height, width, video_length) = (480, 720, 61)
+[2025-02-17 03:24:20.613] The config attributes {'use_flow_sigmas': True, 'prediction_type': 'flow_prediction'} were passed to FlowMatchDiscreteScheduler, but are not expected and will be ignored. Please verify your scheduler_config.json configuration file.
+[2025-02-17 03:24:20.614] Scheduler config: FrozenDict([('num_train_timesteps', 1000), ('flow_shift', 7.5), ('reverse', True), ('solver', 'euler'), ('n_tokens', None), ('_use_default_values', ['n_tokens', 'num_train_timesteps'])])
+[2025-02-17 03:24:30.462] Sampling 61 frames in 16 latents at 720x480 with 30 inference steps
+[2025-02-17 03:27:49.720] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [03:19<00:00,  6.71s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [03:19<00:00,  6.64s/it]
+[2025-02-17 03:27:49.722] Allocated memory: memory=12.275 GB
+[2025-02-17 03:27:49.722] Max allocated memory: max_memory=16.729 GB
+[2025-02-17 03:27:49.722] Max reserved memory: max_reserved=18.625 GB
+[2025-02-17 03:28:06.195] Decoding rows: 100%|███████████████████████████████████████████████████████████████████████████████████████| 5/5 [00:05<00:00,  1.19s/it]Decoding rows: 100%|███████████████████████████████████████████████████████████████████████████████████████| 5/5 [00:05<00:00,  1.18s/it]
+[2025-02-17 03:28:06.672] Blending tiles: 100%|██████████████████████████████████████████████████████████████████████████████████████| 5/5 [00:00<00:00, 10.49it/s]
+[2025-02-17 03:28:12.629] Prompt executed in 255.37 seconds
+[2025-02-17 03:29:27.186] 
+Stopped server

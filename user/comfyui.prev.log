@@ -1,0 +1,243 @@
+## ComfyUI-Manager: installing dependencies done.
+[2025-02-16 13:18:30.951] ** ComfyUI startup time: 2025-02-16 13:18:30.951
+[2025-02-16 13:18:30.951] ** Platform: Linux
+[2025-02-16 13:18:30.951] ** Python version: 3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]
+[2025-02-16 13:18:30.951] ** Python executable: /home/tuyijing/anaconda3/envs/comfyui/bin/python
+[2025-02-16 13:18:30.951] ** ComfyUI Path: /home/tuyijing/ComfyUI
+[2025-02-16 13:18:30.951] ** ComfyUI Base Folder Path: /home/tuyijing/ComfyUI
+[2025-02-16 13:18:30.951] ** User directory: /home/tuyijing/ComfyUI/user
+[2025-02-16 13:18:30.951] ** ComfyUI-Manager config path: /home/tuyijing/ComfyUI/user/default/ComfyUI-Manager/config.ini
+[2025-02-16 13:18:30.951] ** Log path: /home/tuyijing/ComfyUI/user/comfyui.log
+
+Prestartup times for custom nodes:
+[2025-02-16 13:18:31.655]    1.8 seconds: /home/tuyijing/ComfyUI/custom_nodes/ComfyUI-Manager-main
+[2025-02-16 13:18:31.655] 
+[2025-02-16 13:18:33.511] Checkpoint files will always be loaded safely.
+[2025-02-16 13:18:33.880] Total VRAM 81229 MB, total RAM 515615 MB
+[2025-02-16 13:18:33.880] pytorch version: 2.6.0+cu124
+[2025-02-16 13:18:33.880] Set vram state to: NORMAL_VRAM
+[2025-02-16 13:18:33.882] Device: cuda:0 NVIDIA A800-SXM4-80GB : cudaMallocAsync
+[2025-02-16 13:18:35.138] Using pytorch attention
+[2025-02-16 13:18:35.870] ComfyUI version: 0.3.14
+[2025-02-16 13:18:35.874] [Prompt Server] web root: /home/tuyijing/ComfyUI/web
+[2025-02-16 13:18:36.435] ### Loading: ComfyUI-Manager (V3.21)
+[2025-02-16 13:18:36.436] [ComfyUI-Manager] network_mode: public
+[2025-02-16 13:18:36.484] ### ComfyUI Version: v0.3.14-22-g042a905c | Released on '2025-02-13'
+[2025-02-16 13:18:36.535] 
+Import times for custom nodes:
+[2025-02-16 13:18:36.535]    0.0 seconds: /home/tuyijing/ComfyUI/custom_nodes/websocket_image_save.py
+[2025-02-16 13:18:36.535]    0.0 seconds: /home/tuyijing/ComfyUI/custom_nodes/aigodlike-comfyui-translation
+[2025-02-16 13:18:36.535]    0.0 seconds: /home/tuyijing/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite-main
+[2025-02-16 13:18:36.535]    0.1 seconds: /home/tuyijing/ComfyUI/custom_nodes/ComfyUI-Manager-main
+[2025-02-16 13:18:36.535]    0.3 seconds: /home/tuyijing/ComfyUI/custom_nodes/ComfyUI-HunyuanVideoWrapper
+[2025-02-16 13:18:36.535] 
+[2025-02-16 13:18:36.545] Starting server
+
+[2025-02-16 13:18:36.545] To see the GUI go to: http://127.0.0.1:8188
+[2025-02-16 13:19:11.639] got prompt
+[2025-02-16 13:19:19.039] Loading text encoder model (clipL) from: /home/tuyijing/ComfyUI/models/clip/clip-vit-large-patch14
+[2025-02-16 13:19:20.191] Text encoder to dtype: torch.float16
+[2025-02-16 13:19:20.193] Loading tokenizer (clipL) from: /home/tuyijing/ComfyUI/models/clip/clip-vit-large-patch14
+[2025-02-16 13:19:20.325] You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama_fast.LlamaTokenizerFast'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message.
+[2025-02-16 13:19:21.699] Loading text encoder model (vlm) from: /home/tuyijing/ComfyUI/models/LLM/llava-llama-3-8b-v1_1-transformers
+[2025-02-16 13:19:30.002] Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████| 4/4 [00:08<00:00,  1.62s/it]Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████| 4/4 [00:08<00:00,  2.01s/it]
+[2025-02-16 13:19:38.694] Text encoder to dtype: torch.bfloat16
+[2025-02-16 13:19:38.703] Loading tokenizer (vlm) from: /home/tuyijing/ComfyUI/models/LLM/llava-llama-3-8b-v1_1-transformers
+[2025-02-16 13:19:55.788] Expanding inputs for image tokens in LLaVa should be done in processing. Please add `patch_size` and `vision_feature_select_strategy` to the model's processing config or set directly with `processor.patch_size = {{patch_size}}` and processor.vision_feature_select_strategy = {{vision_feature_select_strategy}}`. Using processors without these attributes in the config is deprecated and will throw an error in v4.50.
+[2025-02-16 13:19:56.842] Expanding inputs for image tokens in LLaVa should be done in processing. Please add `patch_size` and `vision_feature_select_strategy` to the model's processing config or set directly with `processor.patch_size = {{patch_size}}` and processor.vision_feature_select_strategy = {{vision_feature_select_strategy}}`. Using processors without these attributes in the config is deprecated and will throw an error in v4.50.
+[2025-02-16 13:19:57.166] vlm prompt attention_mask shape: torch.Size([1, 344]), masked tokens: 344
+[2025-02-16 13:20:08.280] clipL prompt attention_mask shape: torch.Size([1, 77]), masked tokens: 58
+[2025-02-16 13:20:08.558] model_type FLOW
+[2025-02-16 13:20:08.558] The config attributes {'use_flow_sigmas': True, 'prediction_type': 'flow_prediction'} were passed to FlowMatchDiscreteScheduler, but are not expected and will be ignored. Please verify your scheduler_config.json configuration file.
+[2025-02-16 13:20:08.558] Scheduler config: FrozenDict([('num_train_timesteps', 1000), ('flow_shift', 9.0), ('reverse', True), ('solver', 'euler'), ('n_tokens', None), ('_use_default_values', ['num_train_timesteps', 'n_tokens'])])
+[2025-02-16 13:20:08.559] Using accelerate to load and assign model weights to device...
+[2025-02-16 13:20:08.866] Requested to load HyVideoModel
+[2025-02-16 13:20:08.983] Exception in thread Thread-1 (<lambda>):
+[2025-02-16 13:20:08.983] Traceback (most recent call last):
+[2025-02-16 13:20:08.983]   File "/home/tuyijing/anaconda3/envs/comfyui/lib/python3.10/site-packages/aiohttp/connector.py", line 1115, in _wrap_create_connection
+[2025-02-16 13:20:08.983]     sock = await aiohappyeyeballs.start_connection(
+[2025-02-16 13:20:08.983]   File "/home/tuyijing/anaconda3/envs/comfyui/lib/python3.10/site-packages/aiohappyeyeballs/impl.py", line 78, in start_connection
+[2025-02-16 13:20:08.983]     sock, _, _ = await _staggered.staggered_race(
+[2025-02-16 13:20:08.984]   File "/home/tuyijing/anaconda3/envs/comfyui/lib/python3.10/site-packages/aiohappyeyeballs/_staggered.py", line 160, in staggered_race
+[2025-02-16 13:20:08.984]     done = await _wait_one(
+[2025-02-16 13:20:08.984]   File "/home/tuyijing/anaconda3/envs/comfyui/lib/python3.10/site-packages/aiohappyeyeballs/_staggered.py", line 41, in _wait_one
+[2025-02-16 13:20:08.984]     return await wait_next
+[2025-02-16 13:20:08.984] asyncio.exceptions.CancelledError
+[2025-02-16 13:20:08.984] 
+During handling of the above exception, another exception occurred:
+
+[2025-02-16 13:20:08.984] Traceback (most recent call last):
+[2025-02-16 13:20:08.984]   File "/home/tuyijing/anaconda3/envs/comfyui/lib/python3.10/site-packages/aiohttp/client.py", line 703, in _request
+[2025-02-16 13:20:08.984]     conn = await self._connector.connect(
+[2025-02-16 13:20:08.984]   File "/home/tuyijing/anaconda3/envs/comfyui/lib/python3.10/site-packages/aiohttp/connector.py", line 548, in connect
+[2025-02-16 13:20:08.984]     proto = await self._create_connection(req, traces, timeout)
+[2025-02-16 13:20:08.984]   File "/home/tuyijing/anaconda3/envs/comfyui/lib/python3.10/site-packages/aiohttp/connector.py", line 1056, in _create_connection
+[2025-02-16 13:20:08.985]     _, proto = await self._create_direct_connection(req, traces, timeout)
+[2025-02-16 13:20:08.985]   File "/home/tuyijing/anaconda3/envs/comfyui/lib/python3.10/site-packages/aiohttp/connector.py", line 1400, in _create_direct_connection
+[2025-02-16 13:20:08.985]     raise last_exc
+[2025-02-16 13:20:08.985]   File "/home/tuyijing/anaconda3/envs/comfyui/lib/python3.10/site-packages/aiohttp/connector.py", line 1369, in _create_direct_connection
+[2025-02-16 13:20:08.985]     transp, proto = await self._wrap_create_connection(
+[2025-02-16 13:20:08.985]   File "/home/tuyijing/anaconda3/envs/comfyui/lib/python3.10/site-packages/aiohttp/connector.py", line 1112, in _wrap_create_connection
+[2025-02-16 13:20:08.986]     async with ceil_timeout(
+[2025-02-16 13:20:08.986]   File "/home/tuyijing/anaconda3/envs/comfyui/lib/python3.10/site-packages/async_timeout/__init__.py", line 179, in __aexit__
+[2025-02-16 13:20:08.986]     self._do_exit(exc_type)
+[2025-02-16 13:20:08.986]   File "/home/tuyijing/anaconda3/envs/comfyui/lib/python3.10/site-packages/async_timeout/__init__.py", line 265, in _do_exit
+[2025-02-16 13:20:08.986]     raise asyncio.TimeoutError
+[2025-02-16 13:20:08.986] asyncio.exceptions.TimeoutError
+[2025-02-16 13:20:08.986] 
+The above exception was the direct cause of the following exception:
+
+[2025-02-16 13:20:08.986] Traceback (most recent call last):
+[2025-02-16 13:20:08.986]   File "/home/tuyijing/anaconda3/envs/comfyui/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+[2025-02-16 13:20:08.986]     self.run()
+[2025-02-16 13:20:08.986]   File "/home/tuyijing/anaconda3/envs/comfyui/lib/python3.10/threading.py", line 953, in run
+[2025-02-16 13:20:08.987]     self._target(*self._args, **self._kwargs)
+[2025-02-16 13:20:08.987]   File "/home/tuyijing/ComfyUI/custom_nodes/ComfyUI-Manager-main/glob/manager_server.py", line 1650, in <lambda>
+[2025-02-16 13:20:08.987]     threading.Thread(target=lambda: asyncio.run(default_cache_update())).start()
+[2025-02-16 13:20:08.987]   File "/home/tuyijing/anaconda3/envs/comfyui/lib/python3.10/asyncio/runners.py", line 44, in run
+[2025-02-16 13:20:08.987]     return loop.run_until_complete(main)
+[2025-02-16 13:20:08.987]   File "/home/tuyijing/anaconda3/envs/comfyui/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+[2025-02-16 13:20:08.987]     return future.result()
+[2025-02-16 13:20:08.987]   File "/home/tuyijing/ComfyUI/custom_nodes/ComfyUI-Manager-main/glob/manager_server.py", line 1633, in default_cache_update
+[2025-02-16 13:20:08.988]     await asyncio.gather(a, b, c, d, e)
+[2025-02-16 13:20:08.988]   File "/home/tuyijing/ComfyUI/custom_nodes/ComfyUI-Manager-main/glob/manager_server.py", line 1619, in get_cache
+[2025-02-16 13:20:08.988]     json_obj = await manager_util.get_data(uri, True)
+[2025-02-16 13:20:08.988]   File "/home/tuyijing/ComfyUI/custom_nodes/ComfyUI-Manager-main/glob/manager_util.py", line 126, in get_data
+[2025-02-16 13:20:08.988]     async with session.get(uri, headers=headers) as resp:
+[2025-02-16 13:20:08.988]   File "/home/tuyijing/anaconda3/envs/comfyui/lib/python3.10/site-packages/aiohttp/client.py", line 1425, in __aenter__
+[2025-02-16 13:20:08.988]     self._resp: _RetType = await self._coro
+[2025-02-16 13:20:08.988]   File "/home/tuyijing/anaconda3/envs/comfyui/lib/python3.10/site-packages/aiohttp/client.py", line 707, in _request
+[2025-02-16 13:20:08.989]     raise ConnectionTimeoutError(
+[2025-02-16 13:20:08.989] aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2025-02-16 13:20:12.338] loaded completely 78983.42431526184 12555.953247070312 True
+[2025-02-16 13:20:21.289] Input (height, width, video_length) = (480, 720, 61)
+[2025-02-16 13:20:21.290] The config attributes {'use_flow_sigmas': True, 'prediction_type': 'flow_prediction'} were passed to FlowMatchDiscreteScheduler, but are not expected and will be ignored. Please verify your scheduler_config.json configuration file.
+[2025-02-16 13:20:21.291] Scheduler config: FrozenDict([('num_train_timesteps', 1000), ('flow_shift', 7.5), ('reverse', True), ('solver', 'euler'), ('n_tokens', None), ('_use_default_values', ['num_train_timesteps', 'n_tokens'])])
+[2025-02-16 13:20:26.346] Sampling 61 frames in 16 latents at 720x480 with 30 inference steps
+[2025-02-16 13:20:26.347] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:20:33.119] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:20:39.786] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:20:46.465] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:20:53.141] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:20:59.823] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:21:06.502] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:21:13.182] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:21:19.860] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:21:26.538] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:21:33.218] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:21:39.899] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:21:46.580] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:21:53.261] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:21:59.941] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:22:06.620] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:22:13.300] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:22:19.975] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:22:26.656] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:22:33.336] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:22:40.018] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:22:46.700] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:22:53.382] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:23:00.061] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:23:06.743] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:23:13.423] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:23:20.102] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:23:26.783] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:23:33.461] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:23:40.144] input_prompt_embeds:torch.Size([1, 344, 4096])
+[2025-02-16 13:23:44.762] 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [03:18<00:00,  6.68s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [03:18<00:00,  6.61s/it]
+[2025-02-16 13:23:44.766] Allocated memory: memory=12.736 GB
+[2025-02-16 13:23:44.766] Max allocated memory: max_memory=16.725 GB
+[2025-02-16 13:23:44.766] Max reserved memory: max_reserved=18.156 GB
+[2025-02-16 13:24:02.097] Decoding rows: 100%|███████████████████████████████████████████████████████████████████████████████████| 5/5 [00:06<00:00,  1.20s/it]Decoding rows: 100%|███████████████████████████████████████████████████████████████████████████████████| 5/5 [00:06<00:00,  1.20s/it]
+[2025-02-16 13:24:02.573] Blending tiles: 100%|██████████████████████████████████████████████████████████████████████████████████| 5/5 [00:00<00:00, 10.52it/s]
+[2025-02-16 13:24:04.091] Prompt executed in 292.45 seconds
+[2025-02-16 13:24:59.754] got prompt
+[2025-02-16 13:24:59.763] Prompt executed in 0.01 seconds
+[2025-02-16 13:26:21.848] got prompt
+[2025-02-16 13:26:47.252] vlm prompt attention_mask shape: torch.Size([1, 248]), masked tokens: 248
+[2025-02-16 13:26:57.494] clipL prompt attention_mask shape: torch.Size([1, 77]), masked tokens: 58
+[2025-02-16 13:26:57.608] Input (height, width, video_length) = (480, 720, 61)
+[2025-02-16 13:26:57.609] The config attributes {'use_flow_sigmas': True, 'prediction_type': 'flow_prediction'} were passed to FlowMatchDiscreteScheduler, but are not expected and will be ignored. Please verify your scheduler_config.json configuration file.
+[2025-02-16 13:26:57.610] Scheduler config: FrozenDict([('num_train_timesteps', 1000), ('flow_shift', 7.5), ('reverse', True), ('solver', 'euler'), ('n_tokens', None), ('_use_default_values', ['num_train_timesteps', 'n_tokens'])])
+[2025-02-16 13:27:03.964] Sampling 61 frames in 16 latents at 720x480 with 30 inference steps
+[2025-02-16 13:27:03.965] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:27:10.617] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:27:17.223] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:27:23.834] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:27:30.457] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:27:37.081] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:27:43.706] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:27:50.327] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:27:56.959] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:28:03.588] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:28:10.218] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:28:16.845] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:28:23.475] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:28:30.106] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:28:36.737] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:28:43.372] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:28:50.005] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:28:56.640] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:29:03.272] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:29:09.905] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:29:16.538] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:29:23.173] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:29:29.806] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:29:36.440] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:29:43.074] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:29:49.704] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:29:56.334] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:30:02.964] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:30:09.597] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:30:16.227] input_prompt_embeds:torch.Size([1, 248, 4096])
+[2025-02-16 13:30:20.813] 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [03:16<00:00,  6.63s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [03:16<00:00,  6.56s/it]
+[2025-02-16 13:30:20.816] Allocated memory: memory=12.277 GB
+[2025-02-16 13:30:20.816] Max allocated memory: max_memory=16.247 GB
+[2025-02-16 13:30:20.816] Max reserved memory: max_reserved=17.656 GB
+[2025-02-16 13:30:37.463] Decoding rows: 100%|███████████████████████████████████████████████████████████████████████████████████| 5/5 [00:05<00:00,  1.19s/it]Decoding rows: 100%|███████████████████████████████████████████████████████████████████████████████████| 5/5 [00:05<00:00,  1.18s/it]
+[2025-02-16 13:30:37.943] Blending tiles: 100%|██████████████████████████████████████████████████████████████████████████████████| 5/5 [00:00<00:00, 10.44it/s]
+[2025-02-16 13:30:39.216] Prompt executed in 257.36 seconds
+[2025-02-16 13:32:32.795] got prompt
+[2025-02-16 13:32:41.586] vlm prompt attention_mask shape: torch.Size([1, 200]), masked tokens: 200
+[2025-02-16 13:32:51.648] clipL prompt attention_mask shape: torch.Size([1, 77]), masked tokens: 58
+[2025-02-16 13:32:51.764] Input (height, width, video_length) = (480, 720, 61)
+[2025-02-16 13:32:51.764] The config attributes {'use_flow_sigmas': True, 'prediction_type': 'flow_prediction'} were passed to FlowMatchDiscreteScheduler, but are not expected and will be ignored. Please verify your scheduler_config.json configuration file.
+[2025-02-16 13:32:51.764] Scheduler config: FrozenDict([('num_train_timesteps', 1000), ('flow_shift', 7.5), ('reverse', True), ('solver', 'euler'), ('n_tokens', None), ('_use_default_values', ['num_train_timesteps', 'n_tokens'])])
+[2025-02-16 13:32:57.605] Sampling 61 frames in 16 latents at 720x480 with 30 inference steps
+[2025-02-16 13:32:57.606] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:33:04.236] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:33:10.805] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:33:17.380] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:33:23.961] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:33:30.543] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:33:37.125] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:33:43.709] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:33:50.297] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:33:56.887] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:34:03.469] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:34:10.058] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:34:16.644] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:34:23.230] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:34:29.820] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:34:36.408] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:34:42.995] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:34:49.583] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:34:56.175] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:35:02.764] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:35:09.352] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:35:15.939] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:35:22.530] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:35:29.116] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:35:35.704] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:35:42.292] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:35:48.880] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:35:55.465] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:36:02.052] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:36:08.643] input_prompt_embeds:torch.Size([1, 200, 4096])
+[2025-02-16 13:36:13.199] 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [03:15<00:00,  6.59s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [03:15<00:00,  6.52s/it]
+[2025-02-16 13:36:13.202] Allocated memory: memory=12.276 GB
+[2025-02-16 13:36:13.202] Max allocated memory: max_memory=16.238 GB
+[2025-02-16 13:36:13.203] Max reserved memory: max_reserved=17.688 GB
+[2025-02-16 13:36:28.982] Decoding rows: 100%|███████████████████████████████████████████████████████████████████████████████████| 5/5 [00:05<00:00,  1.19s/it]Decoding rows: 100%|███████████████████████████████████████████████████████████████████████████████████| 5/5 [00:05<00:00,  1.18s/it]
+[2025-02-16 13:36:29.460] Blending tiles: 100%|██████████████████████████████████████████████████████████████████████████████████| 5/5 [00:00<00:00, 10.47it/s]
+[2025-02-16 13:36:31.051] Prompt executed in 238.25 seconds

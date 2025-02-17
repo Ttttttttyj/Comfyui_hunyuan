@@ -1,0 +1,286 @@
+## ComfyUI-Manager: installing dependencies done.
+[2025-02-16 12:57:48.958] ** ComfyUI startup time: 2025-02-16 12:57:48.958
+[2025-02-16 12:57:48.959] ** Platform: Linux
+[2025-02-16 12:57:48.959] ** Python version: 3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]
+[2025-02-16 12:57:48.959] ** Python executable: /home/tuyijing/anaconda3/envs/comfyui/bin/python
+[2025-02-16 12:57:48.959] ** ComfyUI Path: /home/tuyijing/ComfyUI
+[2025-02-16 12:57:48.960] ** ComfyUI Base Folder Path: /home/tuyijing/ComfyUI
+[2025-02-16 12:57:48.960] ** User directory: /home/tuyijing/ComfyUI/user
+[2025-02-16 12:57:48.960] ** ComfyUI-Manager config path: /home/tuyijing/ComfyUI/user/default/ComfyUI-Manager/config.ini
+[2025-02-16 12:57:48.960] ** Log path: /home/tuyijing/ComfyUI/user/comfyui.log
+
+Prestartup times for custom nodes:
+[2025-02-16 12:57:49.655]    1.8 seconds: /home/tuyijing/ComfyUI/custom_nodes/ComfyUI-Manager-main
+[2025-02-16 12:57:49.655] 
+[2025-02-16 12:57:51.602] Checkpoint files will always be loaded safely.
+[2025-02-16 12:57:52.065] Total VRAM 81229 MB, total RAM 515615 MB
+[2025-02-16 12:57:52.065] pytorch version: 2.6.0+cu124
+[2025-02-16 12:57:52.066] Set vram state to: NORMAL_VRAM
+[2025-02-16 12:57:52.067] Device: cuda:0 NVIDIA A800-SXM4-80GB : cudaMallocAsync
+[2025-02-16 12:57:53.360] Using pytorch attention
+[2025-02-16 12:57:54.136] ComfyUI version: 0.3.14
+[2025-02-16 12:57:54.141] [Prompt Server] web root: /home/tuyijing/ComfyUI/web
+[2025-02-16 12:57:54.715] ### Loading: ComfyUI-Manager (V3.21)
+[2025-02-16 12:57:54.716] [ComfyUI-Manager] network_mode: public
+[2025-02-16 12:57:54.805] ### ComfyUI Version: v0.3.14-22-g042a905c | Released on '2025-02-13'
+[2025-02-16 12:57:54.871] 
+Import times for custom nodes:
+[2025-02-16 12:57:54.871]    0.0 seconds: /home/tuyijing/ComfyUI/custom_nodes/websocket_image_save.py
+[2025-02-16 12:57:54.871]    0.0 seconds: /home/tuyijing/ComfyUI/custom_nodes/aigodlike-comfyui-translation
+[2025-02-16 12:57:54.871]    0.1 seconds: /home/tuyijing/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite-main
+[2025-02-16 12:57:54.871]    0.1 seconds: /home/tuyijing/ComfyUI/custom_nodes/ComfyUI-Manager-main
+[2025-02-16 12:57:54.871]    0.2 seconds: /home/tuyijing/ComfyUI/custom_nodes/ComfyUI-HunyuanVideoWrapper
+[2025-02-16 12:57:54.871] 
+[2025-02-16 12:57:54.907] Starting server
+
+[2025-02-16 12:57:54.907] To see the GUI go to: http://127.0.0.1:8188
+[2025-02-16 12:57:55.132] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2025-02-16 12:57:55.347] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2025-02-16 12:57:56.219] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2025-02-16 12:57:56.264] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2025-02-16 12:57:56.281] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2025-02-16 12:58:01.781] FETCH ComfyRegistry Data: 5/33
+[2025-02-16 12:58:08.325] FETCH ComfyRegistry Data: 10/33
+[2025-02-16 12:58:10.454] got prompt
+[2025-02-16 12:58:15.318] FETCH ComfyRegistry Data: 15/33
+[2025-02-16 12:58:15.977] Loading text encoder model (clipL) from: /home/tuyijing/ComfyUI/models/clip/clip-vit-large-patch14
+[2025-02-16 12:58:17.825] Text encoder to dtype: torch.float16
+[2025-02-16 12:58:17.827] Loading tokenizer (clipL) from: /home/tuyijing/ComfyUI/models/clip/clip-vit-large-patch14
+[2025-02-16 12:58:17.945] You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama_fast.LlamaTokenizerFast'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message.
+[2025-02-16 12:58:19.254] Loading text encoder model (vlm) from: /home/tuyijing/ComfyUI/models/LLM/llava-llama-3-8b-v1_1-transformers
+[2025-02-16 12:58:23.847] FETCH ComfyRegistry Data: 20/33
+[2025-02-16 12:58:30.432] Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████| 4/4 [00:10<00:00,  2.17s/it]Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████| 4/4 [00:10<00:00,  2.72s/it]
+[2025-02-16 12:58:30.436] FETCH ComfyRegistry Data: 25/33
+[2025-02-16 12:58:36.930] FETCH ComfyRegistry Data: 30/33
+[2025-02-16 12:58:41.115] FETCH ComfyRegistry Data [DONE]
+[2025-02-16 12:58:41.274] [ComfyUI-Manager] default cache updated: https://api.comfy.org/nodes
+[2025-02-16 12:58:41.349] nightly_channel: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/remote
+[2025-02-16 12:58:41.350] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json[2025-02-16 12:58:42.278] Text encoder to dtype: torch.bfloat16
+[2025-02-16 12:58:42.286] Loading tokenizer (vlm) from: /home/tuyijing/ComfyUI/models/LLM/llava-llama-3-8b-v1_1-transformers
+[2025-02-16 12:58:55.197] Expanding inputs for image tokens in LLaVa should be done in processing. Please add `patch_size` and `vision_feature_select_strategy` to the model's processing config or set directly with `processor.patch_size = {{patch_size}}` and processor.vision_feature_select_strategy = {{vision_feature_select_strategy}}`. Using processors without these attributes in the config is deprecated and will throw an error in v4.50.
+batch_encoding:{'input_ids': tensor([[128000, 128006,   9125, 128007,    271,  75885,    279,   2835,    555,
+          45293,    279,   2768,  13878,     25,    220,     16,     13,    578,
+           1925,   2262,    323,   7057,    315,    279,   2835,     13,     17,
+             13,    578,   1933,     11,   6211,     11,   1404,     11,  10651,
+             11,  12472,     11,   1495,     11,    323,  29079,  12135,    315,
+            279,   6302,     13,     18,     13,  27820,     11,   4455,     11,
+          28198,  37015,  12135,     11,   7106,   7351,   4442,    315,    279,
+           6302,     13,     19,     13,   4092,   4676,     11,   3177,     11,
+           1742,    323,  16975,     13,     20,     13,   6382,  27030,     11,
+          19567,     11,    323,  34692,   1511,    304,    279,   2835,     25,
+         128009, 128006,    882, 128007,    271,     32,  57192,   6237,    315,
+            264,   5679,   4401,  16267,   3725,    304,    264,  13863,     11,
+           1579,  22867,   2835,    220,     19,     42,     11,    220, 128257,
+          15203,   1523,    279,   3363,   8761,     11,  38839,   1202,   2010,
+            323,  65425,   3252,   1202,   9986,     11,    293,   3329,   1202,
+          18311,    323,  72221,    449,   2579,   6548,     11,   5644,    311,
+          23556,    520,    904,   4545,     13,    220, 128009]],
+       device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1]], device='cuda:0'), 'pixel_values': tensor([[[[-1.1934, -0.8872, -0.6680,  ..., -1.2959, -1.2812, -1.2666],
+          [-1.1934, -0.8872, -0.6680,  ..., -1.2959, -1.2812, -1.2666],
+          [-1.1934, -0.8872, -0.6680,  ..., -1.2959, -1.2812, -1.2666],
+          ...,
+          [-1.2227, -1.0918, -1.0918,  ..., -0.6973, -0.6973, -0.6538],
+          [-1.2080, -1.0918, -1.0186,  ..., -0.7705, -0.9746, -0.9746],
+          [-1.1934, -1.1064, -1.0186,  ..., -0.9893, -1.1934, -1.2080]],
+
+         [[-1.0918, -0.7764, -0.5664,  ..., -1.1367, -1.1367, -1.1221],
+          [-1.0918, -0.7764, -0.5664,  ..., -1.1367, -1.1221, -1.1221],
+          [-1.0918, -0.7764, -0.5664,  ..., -1.1514, -1.1514, -1.1367],
+          ...,
+          [-1.1064, -0.9717, -0.9717,  ..., -0.5664, -0.5664, -0.5215],
+          [-1.1064, -0.9717, -0.8965,  ..., -0.6416, -0.8364, -0.8516],
+          [-1.1064, -1.0166, -0.8965,  ..., -0.8516, -1.0615, -1.0771]],
+
+         [[-0.6841, -0.4421, -0.2715,  ..., -0.8545, -0.8403, -0.8262],
+          [-0.6841, -0.4563, -0.2856,  ..., -0.8545, -0.8403, -0.8403],
+          [-0.6841, -0.4563, -0.2715,  ..., -0.8545, -0.8545, -0.8403],
+          ...,
+          [-0.6982, -0.6128, -0.6411,  ..., -0.2289, -0.2430, -0.2004],
+          [-0.6982, -0.5986, -0.5415,  ..., -0.3000, -0.4849, -0.4990],
+          [-0.7124, -0.6553, -0.5703,  ..., -0.4990, -0.6982, -0.7124]]]],
+       device='cuda:0', dtype=torch.float16)}
+[2025-02-16 12:58:56.837] Expanding inputs for image tokens in LLaVa should be done in processing. Please add `patch_size` and `vision_feature_select_strategy` to the model's processing config or set directly with `processor.patch_size = {{patch_size}}` and processor.vision_feature_select_strategy = {{vision_feature_select_strategy}}`. Using processors without these attributes in the config is deprecated and will throw an error in v4.50.
+[2025-02-16 12:58:57.107] vlm prompt attention_mask shape: torch.Size([1, 248]), masked tokens: 248
+[2025-02-16 12:59:08.360] batch_encoding:{'input_ids': tensor([[49406,   320, 14709,  3562,   539,   320,  1929,  2761,  6308,  2401,
+           530,   320,  2756,   267,  1400,   268,  3027,  1455,   275,   330,
+           267,   283,  2867,   285,  8667,  1136,   518,  1305,  2012,   267,
+         19101,   902,  1375,   537,  5764,  3905,   902,  4132,   267,  1040,
+           519,   902,  8225,   537, 48535,   519,   593,   736,  3095,   267,
+          1112,   531, 41613,   536,  1504,  2495,   269, 49407, 49407, 49407,
+         49407, 49407, 49407, 49407, 49407, 49407, 49407, 49407, 49407, 49407,
+         49407, 49407, 49407, 49407, 49407, 49407, 49407]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+         0, 0, 0, 0, 0]], device='cuda:0')}
+[2025-02-16 12:59:08.567] clipL prompt attention_mask shape: torch.Size([1, 77]), masked tokens: 58
+[2025-02-16 12:59:08.864] model_type FLOW
+[2025-02-16 12:59:08.865] The config attributes {'use_flow_sigmas': True, 'prediction_type': 'flow_prediction'} were passed to FlowMatchDiscreteScheduler, but are not expected and will be ignored. Please verify your scheduler_config.json configuration file.
+[2025-02-16 12:59:08.865] Scheduler config: FrozenDict([('num_train_timesteps', 1000), ('flow_shift', 9.0), ('reverse', True), ('solver', 'euler'), ('n_tokens', None), ('_use_default_values', ['n_tokens', 'num_train_timesteps'])])
+[2025-02-16 12:59:08.866] Using accelerate to load and assign model weights to device...
+[2025-02-16 12:59:09.194] Requested to load HyVideoModel
+[2025-02-16 12:59:12.909] loaded completely 76980.17504768372 12555.953247070312 True
+[2025-02-16 12:59:21.631] Input (height, width, video_length) = (480, 720, 61)
+[2025-02-16 12:59:21.632] The config attributes {'use_flow_sigmas': True, 'prediction_type': 'flow_prediction'} were passed to FlowMatchDiscreteScheduler, but are not expected and will be ignored. Please verify your scheduler_config.json configuration file.
+[2025-02-16 12:59:21.633] Scheduler config: FrozenDict([('num_train_timesteps', 1000), ('flow_shift', 7.5), ('reverse', True), ('solver', 'euler'), ('n_tokens', None), ('_use_default_values', ['n_tokens', 'num_train_timesteps'])])
+[2025-02-16 12:59:26.059] Sampling 61 frames in 16 latents at 720x480 with 30 inference steps
+[2025-02-16 13:02:46.268] 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [03:20<00:00,  6.74s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [03:20<00:00,  6.67s/it]
+[2025-02-16 13:02:46.273] Allocated memory: memory=12.736 GB
+[2025-02-16 13:02:46.273] Max allocated memory: max_memory=16.706 GB
+[2025-02-16 13:02:46.273] Max reserved memory: max_reserved=18.125 GB
+[2025-02-16 13:03:03.107] Decoding rows: 100%|███████████████████████████████████████████████████████████████████████████████████| 5/5 [00:06<00:00,  1.22s/it]Decoding rows: 100%|███████████████████████████████████████████████████████████████████████████████████| 5/5 [00:06<00:00,  1.22s/it]
+[2025-02-16 13:03:03.582] Blending tiles: 100%|██████████████████████████████████████████████████████████████████████████████████| 5/5 [00:00<00:00, 10.61it/s]
+[2025-02-16 13:03:06.932] Prompt executed in 296.47 seconds
+[2025-02-16 13:03:15.777]  [DONE]
+[2025-02-16 13:03:15.824] [ComfyUI-Manager] All startup tasks have been completed.
+[2025-02-16 13:03:34.402] got prompt
+[2025-02-16 13:03:42.776] batch_encoding:{'input_ids': tensor([[128000, 128006,   9125, 128007,    271,  75885,    279,   2835,    555,
+          45293,    279,   2768,  13878,     25,    220,     16,     13,    578,
+           1925,   2262,    323,   7057,    315,    279,   2835,     13,     17,
+             13,    578,   1933,     11,   6211,     11,   1404,     11,  10651,
+             11,  12472,     11,   1495,     11,    323,  29079,  12135,    315,
+            279,   6302,     13,     18,     13,  27820,     11,   4455,     11,
+          28198,  37015,  12135,     11,   7106,   7351,   4442,    315,    279,
+           6302,     13,     19,     13,   4092,   4676,     11,   3177,     11,
+           1742,    323,  16975,     13,     20,     13,   6382,  27030,     11,
+          19567,     11,    323,  34692,   1511,    304,    279,   2835,     25,
+         128009, 128006,    882, 128007,    271,     32,  57192,   6237,    315,
+            264,   5679,   4401,  16267,   3725,    304,    264,  13863,     11,
+           1579,  22867,   2835,    220,     19,     42,     11,    220, 128257,
+          15203,   1523,    279,   3363,   8761,     11,  38839,   1202,   2010,
+            323,  65425,   3252,   1202,   9986,     11,    293,   3329,   1202,
+          18311,    323,  72221,    449,   2579,   6548,     11,   5644,    311,
+          23556,    520,    904,   4545,     13,    220, 128009]],
+       device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1]], device='cuda:0'), 'pixel_values': tensor([[[[-1.1934, -0.8872, -0.6680,  ..., -1.2959, -1.2812, -1.2666],
+          [-1.1934, -0.8872, -0.6680,  ..., -1.2959, -1.2812, -1.2666],
+          [-1.1934, -0.8872, -0.6680,  ..., -1.2959, -1.2812, -1.2666],
+          ...,
+          [-1.2227, -1.0918, -1.0918,  ..., -0.6973, -0.6973, -0.6538],
+          [-1.2080, -1.0918, -1.0186,  ..., -0.7705, -0.9746, -0.9746],
+          [-1.1934, -1.1064, -1.0186,  ..., -0.9893, -1.1934, -1.2080]],
+
+         [[-1.0918, -0.7764, -0.5664,  ..., -1.1367, -1.1367, -1.1221],
+          [-1.0918, -0.7764, -0.5664,  ..., -1.1367, -1.1221, -1.1221],
+          [-1.0918, -0.7764, -0.5664,  ..., -1.1514, -1.1514, -1.1367],
+          ...,
+          [-1.1064, -0.9717, -0.9717,  ..., -0.5664, -0.5664, -0.5215],
+          [-1.1064, -0.9717, -0.8965,  ..., -0.6416, -0.8364, -0.8516],
+          [-1.1064, -1.0166, -0.8965,  ..., -0.8516, -1.0615, -1.0771]],
+
+         [[-0.6841, -0.4421, -0.2715,  ..., -0.8545, -0.8403, -0.8262],
+          [-0.6841, -0.4563, -0.2856,  ..., -0.8545, -0.8403, -0.8403],
+          [-0.6841, -0.4563, -0.2715,  ..., -0.8545, -0.8545, -0.8403],
+          ...,
+          [-0.6982, -0.6128, -0.6411,  ..., -0.2289, -0.2430, -0.2004],
+          [-0.6982, -0.5986, -0.5415,  ..., -0.3000, -0.4849, -0.4990],
+          [-0.7124, -0.6553, -0.5703,  ..., -0.4990, -0.6982, -0.7124]]]],
+       device='cuda:0', dtype=torch.float16)}
+[2025-02-16 13:03:42.882] vlm prompt attention_mask shape: torch.Size([1, 344]), masked tokens: 344
+[2025-02-16 13:03:53.561] batch_encoding:{'input_ids': tensor([[49406,   320, 14709,  3562,   539,   320,  1929,  2761,  6308,  2401,
+           530,   320,  2756,   267,  1400,   268,  3027,  1455,   275,   330,
+           267,   283,  2867,   285,  8667,  1136,   518,  1305,  2012,   267,
+         19101,   902,  1375,   537,  5764,  3905,   902,  4132,   267,  1040,
+           519,   902,  8225,   537, 48535,   519,   593,   736,  3095,   267,
+          1112,   531, 41613,   536,  1504,  2495,   269, 49407, 49407, 49407,
+         49407, 49407, 49407, 49407, 49407, 49407, 49407, 49407, 49407, 49407,
+         49407, 49407, 49407, 49407, 49407, 49407, 49407]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+         0, 0, 0, 0, 0]], device='cuda:0')}
+[2025-02-16 13:03:53.570] clipL prompt attention_mask shape: torch.Size([1, 77]), masked tokens: 58
+[2025-02-16 13:03:53.674] Input (height, width, video_length) = (480, 720, 61)
+[2025-02-16 13:03:53.674] The config attributes {'use_flow_sigmas': True, 'prediction_type': 'flow_prediction'} were passed to FlowMatchDiscreteScheduler, but are not expected and will be ignored. Please verify your scheduler_config.json configuration file.
+[2025-02-16 13:03:53.675] Scheduler config: FrozenDict([('num_train_timesteps', 1000), ('flow_shift', 7.5), ('reverse', True), ('solver', 'euler'), ('n_tokens', None), ('_use_default_values', ['n_tokens', 'num_train_timesteps'])])
+[2025-02-16 13:04:00.936] Sampling 61 frames in 16 latents at 720x480 with 30 inference steps
+[2025-02-16 13:07:22.471] 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [03:21<00:00,  6.73s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [03:21<00:00,  6.72s/it]
+[2025-02-16 13:07:22.475] Allocated memory: memory=12.277 GB
+[2025-02-16 13:07:22.476] Max allocated memory: max_memory=16.266 GB
+[2025-02-16 13:07:22.476] Max reserved memory: max_reserved=17.031 GB
+[2025-02-16 13:07:41.934] Decoding rows: 100%|███████████████████████████████████████████████████████████████████████████| 5/5 [00:05<00:00,  1.19s/it]Decoding rows: 100%|███████████████████████████████████████████████████████████████████████████| 5/5 [00:05<00:00,  1.18s/it]
+[2025-02-16 13:07:42.418] Blending tiles: 100%|██████████████████████████████████████████████████████████████████████████| 5/5 [00:00<00:00, 10.36it/s]
+[2025-02-16 13:08:10.716] Prompt executed in 276.31 seconds
+[2025-02-16 13:13:57.382] got prompt
+[2025-02-16 13:14:05.548] batch_encoding:{'input_ids': tensor([[128000, 128006,   9125, 128007,    271,  75885,    279,   2835,    555,
+          45293,    279,   2768,  13878,     25,    220,     16,     13,    578,
+           1925,   2262,    323,   7057,    315,    279,   2835,     13,     17,
+             13,    578,   1933,     11,   6211,     11,   1404,     11,  10651,
+             11,  12472,     11,   1495,     11,    323,  29079,  12135,    315,
+            279,   6302,     13,     18,     13,  27820,     11,   4455,     11,
+          28198,  37015,  12135,     11,   7106,   7351,   4442,    315,    279,
+           6302,     13,     19,     13,   4092,   4676,     11,   3177,     11,
+           1742,    323,  16975,     13,     20,     13,   6382,  27030,     11,
+          19567,     11,    323,  34692,   1511,    304,    279,   2835,     25,
+         128009, 128006,    882, 128007,    271,     32,  57192,   6237,    315,
+            264,   5679,   4401,  16267,   3725,    304,    264,  13863,     11,
+           1579,  22867,   2835,    220,     19,     42,     11,    220, 128257,
+          15203,   1523,    279,   3363,   8761,     11,  38839,   1202,   2010,
+            323,  65425,   3252,   1202,   9986,     11,    293,   3329,   1202,
+          18311,    323,  72221,    449,   2579,   6548,     11,   5644,    311,
+          23556,    520,    904,   4545,     13,    220, 128009]],
+       device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1]], device='cuda:0'), 'pixel_values': tensor([[[[-1.1934, -0.8872, -0.6680,  ..., -1.2959, -1.2812, -1.2666],
+          [-1.1934, -0.8872, -0.6680,  ..., -1.2959, -1.2812, -1.2666],
+          [-1.1934, -0.8872, -0.6680,  ..., -1.2959, -1.2812, -1.2666],
+          ...,
+          [-1.2227, -1.0918, -1.0918,  ..., -0.6973, -0.6973, -0.6538],
+          [-1.2080, -1.0918, -1.0186,  ..., -0.7705, -0.9746, -0.9746],
+          [-1.1934, -1.1064, -1.0186,  ..., -0.9893, -1.1934, -1.2080]],
+
+         [[-1.0918, -0.7764, -0.5664,  ..., -1.1367, -1.1367, -1.1221],
+          [-1.0918, -0.7764, -0.5664,  ..., -1.1367, -1.1221, -1.1221],
+          [-1.0918, -0.7764, -0.5664,  ..., -1.1514, -1.1514, -1.1367],
+          ...,
+          [-1.1064, -0.9717, -0.9717,  ..., -0.5664, -0.5664, -0.5215],
+          [-1.1064, -0.9717, -0.8965,  ..., -0.6416, -0.8364, -0.8516],
+          [-1.1064, -1.0166, -0.8965,  ..., -0.8516, -1.0615, -1.0771]],
+
+         [[-0.6841, -0.4421, -0.2715,  ..., -0.8545, -0.8403, -0.8262],
+          [-0.6841, -0.4563, -0.2856,  ..., -0.8545, -0.8403, -0.8403],
+          [-0.6841, -0.4563, -0.2715,  ..., -0.8545, -0.8545, -0.8403],
+          ...,
+          [-0.6982, -0.6128, -0.6411,  ..., -0.2289, -0.2430, -0.2004],
+          [-0.6982, -0.5986, -0.5415,  ..., -0.3000, -0.4849, -0.4990],
+          [-0.7124, -0.6553, -0.5703,  ..., -0.4990, -0.6982, -0.7124]]]],
+       device='cuda:0', dtype=torch.float16)}
+[2025-02-16 13:14:05.651] vlm prompt attention_mask shape: torch.Size([1, 632]), masked tokens: 632
+[2025-02-16 13:14:16.618] batch_encoding:{'input_ids': tensor([[49406,   320, 14709,  3562,   539,   320,  1929,  2761,  6308,  2401,
+           530,   320,  2756,   267,  1400,   268,  3027,  1455,   275,   330,
+           267,   283,  2867,   285,  8667,  1136,   518,  1305,  2012,   267,
+         19101,   902,  1375,   537,  5764,  3905,   902,  4132,   267,  1040,
+           519,   902,  8225,   537, 48535,   519,   593,   736,  3095,   267,
+          1112,   531, 41613,   536,  1504,  2495,   269, 49407, 49407, 49407,
+         49407, 49407, 49407, 49407, 49407, 49407, 49407, 49407, 49407, 49407,
+         49407, 49407, 49407, 49407, 49407, 49407, 49407]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+         0, 0, 0, 0, 0]], device='cuda:0')}
+[2025-02-16 13:14:16.630] clipL prompt attention_mask shape: torch.Size([1, 77]), masked tokens: 58
+[2025-02-16 13:14:16.728] Input (height, width, video_length) = (480, 720, 61)
+[2025-02-16 13:14:16.729] The config attributes {'use_flow_sigmas': True, 'prediction_type': 'flow_prediction'} were passed to FlowMatchDiscreteScheduler, but are not expected and will be ignored. Please verify your scheduler_config.json configuration file.
+[2025-02-16 13:14:16.730] Scheduler config: FrozenDict([('num_train_timesteps', 1000), ('flow_shift', 7.5), ('reverse', True), ('solver', 'euler'), ('n_tokens', None), ('_use_default_values', ['n_tokens', 'num_train_timesteps'])])
+[2025-02-16 13:14:24.346] Sampling 61 frames in 16 latents at 720x480 with 30 inference steps
+[2025-02-16 13:17:46.650] 100%|████████████████████████████████████████████████████████████████████████████████████████| 30/30 [03:22<00:00,  6.81s/it]100%|████████████████████████████████████████████████████████████████████████████████████████| 30/30 [03:22<00:00,  6.74s/it]
+[2025-02-16 13:17:46.653] Allocated memory: memory=12.280 GB
+[2025-02-16 13:17:46.653] Max allocated memory: max_memory=16.323 GB
+[2025-02-16 13:17:46.654] Max reserved memory: max_reserved=17.781 GB
+[2025-02-16 13:18:03.542] Decoding rows: 100%|███████████████████████████████████████████████████████████████████████████| 5/5 [00:05<00:00,  1.19s/it]Decoding rows: 100%|███████████████████████████████████████████████████████████████████████████| 5/5 [00:05<00:00,  1.18s/it]
+[2025-02-16 13:18:04.021] Blending tiles: 100%|██████████████████████████████████████████████████████████████████████████| 5/5 [00:00<00:00, 10.45it/s]
+[2025-02-16 13:18:05.317] Prompt executed in 247.93 seconds
+[2025-02-16 13:18:17.518] 
+Stopped server
